@@ -1,5 +1,6 @@
 // ===== Lightbox =====
-function openLightbox(img) {
+function openLightbox(img)
+ {
   const lightbox = document.getElementById('lightbox');
   const lightboxImg = document.getElementById('lightbox-img');
 
@@ -14,7 +15,8 @@ function closeLightbox() {
 
 // Optional: Close lightbox with ESC key
 document.addEventListener('keydown', function(e) {
-  if (e.key === "Escape") {
+  if (e.key === "Escape")
+     {
     closeLightbox();
   }
 });
